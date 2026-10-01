@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerveViva | Plantas & Jardinagem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-flower1 me-2"></i>Verde Viva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#categoria">Categoria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#duvidas">Duvidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Carousel -->
+        <section id="inicio">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+
+                    <!-- Carousel 01 -->
+                    <div class="carousel-item active
+                    bg-success text-white text-center p-5">
+                        <h1>Deixe sua casa mais verde.</h1>
+                        <p class="fs-5">Plantas selecionadas para transformar seus ambientes.</p>
+                        <a href="#produtos" class="btn btn-light">Conhecer produtos</a>
+                    </div>
+
+                    <!-- Carousel 02 -->
+                    <div class="carousel-item 
+                    bg-warning text-dark text-center p-5">
+                        <h1>Semana dos Vasos</h1>
+                        <p class="fs-5">Ofertas especiais em vasos e acessorios</p>
+                        <a href="#ofertas" class="btn btn-dark">Ver Ofertas</a>
+                    </div>
+                    <!-- Carousel 03 -->
+                    <div class="carousel-item 
+                    bg-info text-white text-center p-5">
+                        <h1>Novidades</h1>
+                        <p class="fs-5">Confira nossos novos produtos</p>
+                        <a href="#novidades" class="btn btn-light">Ver Novidades</a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Alerts -->
+        <section class="container-fluid">
+            <div class="alert alert-success text-center m-3 p-1" role="alert">
+                <i class="bi bi-truck"></i>
+                <strong>Frete Grátis</strong> para compras acima de R$ 150,00
+            </div>
+
+
+
+        </section>
+
+        <!-- Cards -->
+        <section class="container text-center mt-5" id="categoria">
+            <div>
+                <h2 class="fw-bold">Nossas categorias</h2>
+                <p class="text-secondary">Encontre tudo o que precisa para deixar seu espaço mais verde.</p>
+            </div>
+            <div class="row mb-5">
+                <div class="col col-md">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Plantas</h5>
+                            <i class="bi bi-flower1 text-success" style="font-size: 3rem;"></i>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col col-md">
+
+                </div>
+
+                <div class="col col-md">
+
+                </div>
+
+                <div class="col col-md">
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
